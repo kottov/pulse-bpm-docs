@@ -13,66 +13,83 @@
     }
 
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f4f4;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #f0f8ff;
       color: #333;
-      padding: 20px;
+      padding: 0;
     }
 
     header {
       text-align: center;
-      padding: 50px 20px;
-      background-color: #fff;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      margin-bottom: 40px;
+      padding: 60px 20px;
+      background: linear-gradient(to bottom right, #e0f7fa, #80deea);
+      color: #fff;
     }
 
     header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 10px;
-      color: #2b2b2b;
+      font-size: 3rem;
+      margin-bottom: 20px;
     }
 
     header p {
-      font-size: 1.1rem;
-      color: #666;
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
     }
 
     .container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
       gap: 40px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
     }
 
     .section {
       background: white;
-      padding: 20px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .section:hover {
+      transform: translateY(-10px);
     }
 
     .section h2 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
       margin-bottom: 15px;
+      color: #00796b;
     }
 
     .section p {
+      font-size: 1rem;
+      line-height: 1.6;
       margin-bottom: 20px;
       color: #555;
     }
 
+    .image-placeholder {
+      width: 100%;
+      height: 200px;
+      background-color: #e0e0e0;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
     .links {
       text-align: center;
-      margin-top: 40px;
+      margin: 60px 0;
     }
 
     .button {
       display: inline-block;
       padding: 15px 30px;
-      background-color: #007bff;
+      background-color: #00796b;
       color: white;
-      border-radius: 5px;
+      border-radius: 8px;
       margin: 10px;
       text-decoration: none;
       font-size: 1.1rem;
@@ -80,41 +97,56 @@
     }
 
     .button:hover {
-      background-color: #0056b3;
+      background-color: #004d40;
     }
 
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #fff;
-      margin-top: 50px;
-      box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #00796b;
+      color: #fff;
     }
 
     footer p {
-      color: #777;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
+
   <!-- Header Section -->
   <header>
     <h1>reTAPe BPM Counter</h1>
-    <p>Simple, fast, and joyful BPM counting app to enhance your musical journey.</p>
+    <p>Unlock the power of music tempo with a beautiful and intuitive BPM counter app.</p>
   </header>
 
   <!-- Main Content -->
   <div class="container">
     <!-- Developer Section -->
     <section class="section">
+      <div class="image-placeholder">
+        <!-- Placeholder for developer image -->
+      </div>
       <h2>About the Developer</h2>
-      <p>Hi, I'm Kostiantyn Pogorielov, a passionate app developer and music enthusiast. My goal with reTAPe BPM Counter is to create a fun, user-friendly tool that enhances how we experience music by providing precise tempo measurements with ease.</p>
+      <p>Hi, I'm Kostiantyn Pogorielov, a developer passionate about music and technology. With reTAPe BPM Counter, my mission is to make tempo calculation fun, accessible, and a visual joy for music lovers.</p>
     </section>
 
     <!-- App Description Section -->
     <section class="section">
+      <div class="image-placeholder">
+        <!-- Placeholder for app screenshot -->
+      </div>
       <h2>About the App</h2>
-      <p>reTAPe BPM Counter allows you to tap along with the beat of your favorite songs and get an instant and accurate BPM count. It's the perfect companion for DJs, party enthusiasts, and anyone who loves to explore and understand the tempo of their music.</p>
+      <p>reTAPe BPM Counter is designed for music lovers, DJs, and party enthusiasts. With real-time BPM detection, visually synchronized animations, and a fun interface, it brings a new level of interactivity and excitement to exploring your music.</p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+      <div class="image-placeholder">
+        <!-- Placeholder for app feature image -->
+      </div>
+      <h2>Features</h2>
+      <p>Experience fast, accurate BPM detection with a visually appealing interface. Share your findings with friends and enhance your music with easy integration to your favorite platforms. Available for both beginners and pros.</p>
     </section>
   </div>
 
@@ -126,7 +158,8 @@
 
   <!-- Footer -->
   <footer>
-    <p>&copy; 2024 Kostiantyn Pogorielov - reTAPe BPM Counter</p>
+    <p>&copy; 2024 Kostiantyn Pogorielov - reTAPe BPM Counter | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
