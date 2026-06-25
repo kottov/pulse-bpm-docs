@@ -3,58 +3,295 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Live BPM: Tap Tempo & Counter (marketed as such on the App Store) and Live BPM (the name displayed on the device)</title>
+    <title>Live BPM — Privacy Policy</title>
+    <style>
+        :root { --accent: #4a76a8; --accent-dark: #2d4d69; --bg: #f0f2f5; --ink: #222; --muted: #666; }
+        * { box-sizing: border-box; }
+        body { font-family: Arial, Helvetica, sans-serif; background: var(--bg); margin: 0; padding: 0; color: var(--ink); }
+        .doc { max-width: 880px; margin: 40px auto; background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+        header { background: var(--accent); color: #fff; padding: 36px 32px; }
+        header h1 { margin: 0 0 6px; font-size: 26px; }
+        header .meta { font-size: 13px; opacity: 0.92; line-height: 1.6; }
+        .body { padding: 8px 32px 32px; }
+        h2 { color: var(--accent); font-size: 19px; margin-top: 34px; border-bottom: 1px solid #e3e3e3; padding-bottom: 8px; }
+        h3 { font-size: 16px; margin-top: 22px; color: var(--accent-dark); }
+        p, li { font-size: 14px; line-height: 1.65; }
+        a { color: var(--accent); }
+        a:hover { color: var(--accent-dark); }
+        .summary { background: #eef3f9; border: 1px solid #d4e0ee; border-radius: 8px; padding: 16px 20px; margin-top: 22px; }
+        .summary h2 { margin-top: 4px; border: none; }
+        .summary ul { margin: 8px 0 0; padding-left: 20px; }
+        .callout { background: #fff8e6; border: 1px solid #f0d98a; border-left: 4px solid #e0a500; border-radius: 6px; padding: 12px 16px; margin: 16px 0; font-size: 13.5px; }
+        .callout strong { color: #8a6400; }
+        table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 13px; }
+        th, td { border: 1px solid #dcdcdc; padding: 8px 10px; text-align: left; vertical-align: top; }
+        th { background: #f4f7fb; color: var(--accent-dark); }
+        nav.toc { background: #fafbfc; border: 1px solid #e3e3e3; border-radius: 8px; padding: 14px 18px; margin-top: 22px; font-size: 13.5px; }
+        nav.toc ol { margin: 6px 0 0; padding-left: 22px; }
+        nav.toc li { margin-bottom: 3px; }
+        code { background: #f3f3f3; padding: 1px 5px; border-radius: 4px; font-size: 12.5px; }
+        footer { background: var(--bg); padding: 18px 32px; text-align: center; font-size: 12px; color: var(--muted); }
+    </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p><strong>Last Updated: 2026-01-15</strong></p>
-    <p>Welcome to Live BPM: Tap Tempo & Counter (marketed as such on the App Store) and Live BPM (the name displayed on the device) ("we," "our," or "us"). This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application, Live BPM: Tap Tempo & Counter (marketed as such on the App Store) and Live BPM (the name displayed on the device) ("App"). Please read this Privacy Policy carefully. If you do not agree with the terms of this Privacy Policy, please do not access the App.</p>
+<div class="doc">
+    <header>
+        <h1>Live BPM — Privacy Policy</h1>
+        <div class="meta">
+            Applies to the mobile app <strong>Live BPM</strong> (App Store name: “Live BPM: Tap Tempo &amp; Counter”) for iOS and Android.<br>
+            <strong>Effective / Last updated:</strong> 25 June 2026<br>
+            <strong>Data controller:</strong> Kostiantyn Pogorielov (individual developer), Ukraine — contact: <a href="mailto:kottov@gmail.com">kottov@gmail.com</a>
+        </div>
+    </header>
+    <div class="body">
 
-    <h2>1. Information We Collect</h2>
-    <h3>1.1 Personal Information</h3>
-    <p>We do not collect personal information that can directly identify you, such as your name, email address, or phone number.</p>
+        <div class="summary">
+            <h2>The short version</h2>
+            <ul>
+                <li><strong>Tempo detection happens on your device.</strong> When the app listens through your microphone to estimate tempo (BPM), that raw audio is processed in real time on your device and is <strong>not</strong> recorded, saved, or sent to us or anyone else.</li>
+                <li><strong>The optional “Track ID” feature is different.</strong> If you use it to identify a song, your device creates an acoustic “fingerprint” of the sound and sends that fingerprint (not a recording) to Apple’s <strong>Shazam</strong> music-recognition service to find a match. See <a href="#audio">Section&nbsp;3</a>.</li>
+                <li><strong>You can use most of the app without an account.</strong> Signing in (Google, Apple, or email code) is optional; it syncs your settings across devices (all users) and, for subscribers, your session library.</li>
+                <li><strong>We use third-party services</strong> for analytics, crash reporting, ads (free version only), and subscriptions. They are listed in <a href="#third-parties">Section&nbsp;9</a>.</li>
+                <li><strong>You have rights</strong> to access, correct, and delete your data, and to object to certain uses. See <a href="#rights-eu">Section&nbsp;12</a> and <a href="#rights-us">Section&nbsp;13</a>.</li>
+            </ul>
+            <p style="margin-bottom:0;font-size:13px;">This summary is for convenience only; the full policy below is what governs.</p>
+        </div>
 
-    <h3>1.2 Non-Personal Information</h3>
-    <p>We may collect non-personal information about your use of the App. This includes, but is not limited to, device type, operating system, app version, and usage data such as session duration and frequency. This data is collected for analytical purposes only and is anonymized or aggregated, ensuring that no personally identifiable information is collected or processed.</p>
+        <nav class="toc">
+            <strong>Contents</strong>
+            <ol>
+                <li><a href="#who">Who we are</a></li>
+                <li><a href="#scope">Scope of this policy</a></li>
+                <li><a href="#audio">Microphone &amp; audio</a></li>
+                <li><a href="#collect">Information we collect and why</a></li>
+                <li><a href="#accounts">Accounts &amp; sign-in</a></li>
+                <li><a href="#sync">Cloud sync &amp; your library</a></li>
+                <li><a href="#analytics">Analytics, crash &amp; performance data</a></li>
+                <li><a href="#ads">Advertising (free version)</a></li>
+                <li><a href="#third-parties">Third-party services we share data with</a></li>
+                <li><a href="#transfers">International data transfers</a></li>
+                <li><a href="#retention">How long we keep data</a></li>
+                <li><a href="#rights-eu">Your rights (EEA, UK, Switzerland)</a></li>
+                <li><a href="#rights-us">Your rights (United States)</a></li>
+                <li><a href="#deletion">Deleting your account &amp; data</a></li>
+                <li><a href="#children">Children</a></li>
+                <li><a href="#security">Security</a></li>
+                <li><a href="#migration">Migration from the previous app (retape)</a></li>
+                <li><a href="#changes">Changes to this policy</a></li>
+                <li><a href="#contact">How to contact us</a></li>
+            </ol>
+        </nav>
 
-    <h2>2. How We Use Your Information</h2>
-    <p>We use the information we collect for the following purposes:</p>
-    <ul>
-        <li>Analytics: To understand how users interact with the App, monitor usage trends, and identify areas for improvement.</li>
-        <li>App Improvement: To enhance the functionality, performance, and user experience of the App based on collected data.</li>
-        <li>Advertising: To display ads via third-party services such as AdMob. Advertising data may be collected to personalize ads shown within the app.</li>
-    </ul>
+        <h2 id="who">1. Who we are</h2>
+        <p>Live BPM is developed and operated by <strong>Kostiantyn Pogorielov</strong>, an individual software developer based in Ukraine (“we”, “us”, “the developer”). For the purposes of the EU and UK General Data Protection Regulation (GDPR / UK GDPR), the developer is the <strong>data controller</strong> for personal data processed through the app.</p>
+        <p>You can reach us at any time at <a href="mailto:kottov@gmail.com">kottov@gmail.com</a> for any privacy question or to exercise your rights.</p>
+        <div class="callout">
+            <strong>EU / UK representative.</strong> Because we offer the app to users in the European Economic Area and the United Kingdom, an Article&nbsp;27 representative may be required. Our designated representative(s):
+            <em>[EU representative — name and address to be inserted]</em> and <em>[UK representative — name and address to be inserted]</em>. Until these are appointed, please contact us directly at the email above.
+        </div>
 
-    <h2>3. App Tracking Transparency (ATT) and Advertising</h2>
-    <p>Our app may display ads using third-party services such as AdMob. To ensure transparency and protect your privacy, we will request your permission to track your activity across apps and websites through Apple's App Tracking Transparency (ATT) framework.</p>
-    <p>If you grant permission, we may collect information such as device identifiers (e.g., IDFA) and usage data to deliver personalized ads. If you do not grant permission, non-personalized ads may still be shown, but no tracking data will be collected.</p>
+        <h2 id="scope">2. Scope of this policy</h2>
+        <p>This policy explains what personal data the Live BPM mobile app for <strong>iOS and Android</strong> collects, how we use it, who we share it with, and the choices and rights you have. It does not cover third-party services we link to or integrate (such as Apple, Google, Spotify or other music services), which have their own privacy policies.</p>
 
-    <h2>4. Sharing Your Information</h2>
-    <p>We do not share, sell, or otherwise distribute your personal information to third parties. Non-personal data may be shared with third-party analytics providers such as Google Analytics and advertising networks such as AdMob solely to help us understand user behavior within the App and serve relevant advertisements.</p>
-    <p>We have configured Google Analytics to anonymize IP addresses and prevent any personal or identifiable information from being collected. Furthermore, we do not use Google Analytics or any other tools for tracking users across different applications or websites unless permission has been granted via ATT.</p>
+        <h2 id="audio">3. Microphone &amp; audio — please read this carefully</h2>
+        <p>The app uses your device microphone in two clearly different ways:</p>
 
-    <h2>5. Third-Party Services</h2>
-    <p>Our App uses third-party services such as Google Analytics for analytics and AdMob for displaying ads. These services may collect non-personal, anonymized data such as device type, operating system, and usage patterns. Google Analytics is configured to anonymize all data, and no personally identifiable information is collected without user permission. We use AdMob to display ads, and if you consent to tracking, data may be collected to show personalized ads.</p>
-    <p>For more information on how Google Analytics and AdMob handle data, please review their respective <a href="https://policies.google.com/privacy">privacy policies</a>.</p>
+        <h3>3.1 On-device tempo (BPM) detection</h3>
+        <p>The core feature of Live BPM listens to nearby sound through your microphone to estimate the tempo (beats per minute) in real time. This audio analysis runs <strong>entirely on your device</strong>. We do <strong>not</strong> record it, do <strong>not</strong> save it, and do <strong>not</strong> transmit the raw audio to us or to any third party. Once tempo has been estimated, the underlying sound is discarded from memory.</p>
 
-    <h2>6. Data Security</h2>
-    <p>We implement reasonable security measures to protect your information from unauthorized access and use. However, no method of transmission over the Internet or electronic storage is 100% secure. Therefore, we cannot guarantee absolute security.</p>
+        <h3>3.2 “Track ID” song recognition (optional)</h3>
+        <p>If you use the <strong>Track ID</strong> feature, the app identifies the music that is playing using Apple’s <strong>Shazam</strong> music-recognition service. On <strong>iOS</strong> this uses Apple’s built-in <strong>ShazamKit</strong>; on <strong>Android</strong> it uses an equivalent Shazam-based recognizer that obtains a short-lived access token from our backend (Supabase). In both cases, your device converts the captured sound into a numerical acoustic “fingerprint” and sends that fingerprint — <strong>not a recording</strong> — to the Shazam service to look for a match. As part of this request, the service may receive technical information such as your IP address and a randomly generated identifier. Apple’s handling of this data is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple’s Privacy Policy</a>.</p>
+        <p>Track ID is a paid feature (and remains available to certain users carried over from our previous app, retape). It runs when you start it — or, if you turn on the optional <strong>“auto-start Track ID”</strong> setting, automatically each time a microphone detection begins, until you turn that setting off.</p>
+        <p>When a song is identified, the app may show streaming links for it. To build those links it sends the matched song’s Apple Music URL (and your store country) to the <strong>Odesli / Song.link</strong> service, which returns equivalent links for other platforms. No microphone audio is sent to Odesli.</p>
 
-    <h2>7. Subscription and Purchase Options</h2>
-    <p>We offer various purchase options for the app, including subscriptions and one-time purchases. Specific details about these options, such as pricing, duration, and promotions, may vary and are displayed at the time of purchase.</p>
-    <p>Payment and billing are handled through Apple. Subscription details, including the length of the subscription, auto-renewal status, and pricing, are clearly outlined on the purchase screen before you complete your transaction.</p>
-    <p>We may update or change the available purchase options from time to time, such as replacing one-time purchases with subscriptions or offering promotional pricing. Any changes to pricing or subscription terms will be communicated to you through the app or during the purchase process.</p>
-    
-    <h2>8. Children's Privacy</h2>
-    <p>Our App is not intended for children under the age of 13. We do not knowingly collect or solicit information from anyone under the age of 13. If we become aware that we have collected personal information from a child under age 13 without verification of parental consent, we will delete that information as quickly as possible.</p>
+        <h2 id="collect">4. Information we collect and why</h2>
+        <p>We collect only what the app needs to work and to improve. The table below summarises each category, why we process it, and — for users in the EEA/UK — our legal basis under the GDPR.</p>
+        <table>
+            <thead>
+                <tr><th>Category</th><th>Examples</th><th>Why we process it</th><th>Legal basis (GDPR)</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Microphone audio</td>
+                    <td>Live sound used for tempo detection (on-device) or to derive a Track ID fingerprint</td>
+                    <td>To provide the core tempo and song-identification features you request</td>
+                    <td>Performance of a contract / your request (and your device permission)</td>
+                </tr>
+                <tr>
+                    <td>Account data <em>(only if you sign in)</em></td>
+                    <td>Email address (including Apple “Hide My Email” relay addresses), display name, profile picture URL (from Google), the sign-in provider used, and the account identifiers our backend assigns</td>
+                    <td>To create and secure your account and sync your data</td>
+                    <td>Performance of a contract</td>
+                </tr>
+                <tr>
+                    <td>Session &amp; library data</td>
+                    <td>Tempo readings, a confidence/certainty value, timestamps, session type, session names you set, collections you create, and tool results (identified tracks, beat-monitor traces)</td>
+                    <td>To save your sessions on your device and, for subscribers, sync them across devices</td>
+                    <td>Performance of a contract / legitimate interest in providing app functionality</td>
+                </tr>
+                <tr>
+                    <td>App settings</td>
+                    <td>Your preferences and configuration choices</td>
+                    <td>To remember your settings and, for signed-in users, restore them after reinstall or on another device</td>
+                    <td>Performance of a contract / legitimate interest</td>
+                </tr>
+                <tr>
+                    <td>Usage &amp; analytics events</td>
+                    <td>Which features you use, in-app events, randomly generated session identifiers, tempo values and detection method — <strong>not</strong> your name or email</td>
+                    <td>To understand how the app is used and improve it</td>
+                    <td>Consent (where required, e.g. EEA/UK) / otherwise legitimate interest</td>
+                </tr>
+                <tr>
+                    <td>Crash &amp; diagnostics data</td>
+                    <td>Crash stack traces, error logs, device model and OS version, a random installation identifier, and limited “breadcrumb” logs</td>
+                    <td>To detect and fix crashes and bugs (released app versions only)</td>
+                    <td>Legitimate interest in a stable, secure app</td>
+                </tr>
+                <tr>
+                    <td>Performance data</td>
+                    <td>App start time, screen rendering and network timings, device/network attributes</td>
+                    <td>To monitor and improve app performance (released app versions only)</td>
+                    <td>Legitimate interest</td>
+                </tr>
+                <tr>
+                    <td>Advertising identifiers <em>(free version only)</em></td>
+                    <td>Your device advertising ID (Apple IDFA / Google Advertising ID) and related ad-request data</td>
+                    <td>To show ads in the free version</td>
+                    <td>Consent (via the on-device consent / tracking prompts described in Section&nbsp;8)</td>
+                </tr>
+                <tr>
+                    <td>Purchase &amp; subscription data</td>
+                    <td>The purchase/subscription you bought, entitlement status, store transaction identifiers, and — if you are signed in — your email and display name passed to our subscription provider</td>
+                    <td>To unlock paid features, restore purchases, and manage subscriptions</td>
+                    <td>Performance of a contract</td>
+                </tr>
+                <tr>
+                    <td>Technical / network data</td>
+                    <td>IP address and standard request metadata when the app contacts a server (including a lightweight connectivity check to a Google endpoint)</td>
+                    <td>To deliver network features and check connectivity</td>
+                    <td>Legitimate interest / performance of a contract</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>We do <strong>not</strong> knowingly collect special categories of data (such as health, biometric identifiers used to identify you, or precise location). The Track ID acoustic fingerprint is used to match music, not to identify <em>you</em>.</p>
 
-    <h2>9. Changes to This Privacy Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted in the App.</p>
+        <h2 id="accounts">5. Accounts &amp; sign-in</h2>
+        <p>Most of the app works without an account. If you want to sync your data across devices, you can create an account using:</p>
+        <ul>
+            <li><strong>Sign in with Google</strong> — we receive your email, display name and profile picture URL;</li>
+            <li><strong>Sign in with Apple</strong> — we receive your name (if you share it) and either your real email or an Apple private relay address;</li>
+            <li><strong>Email one-time code</strong> — we receive your email address and verify it with a code.</li>
+        </ul>
+        <p>Authentication and account storage are provided by <strong>Supabase</strong> (see Section&nbsp;9). When you are signed in, your email and display name are also shared with our subscription provider (RevenueCat) to manage your entitlements. For Sign in with Apple, our backend may store an Apple-issued refresh token so that, if you later delete your account, we can ask Apple to revoke the app’s access on your behalf.</p>
 
-    <h2>10. Contact Us</h2>
-    <p>If you have any questions or concerns about this Privacy Policy, please contact us at:</p>
-    <p>Email: kpogorielov@gmail.com</p>
+        <h2 id="sync">6. Cloud sync &amp; your library</h2>
+        <p>If you are signed in, certain data is stored on our backend (Supabase) so it can be synced across your devices:</p>
+        <ul>
+            <li><strong>App settings</strong> sync for <strong>all</strong> signed-in users, so you can restore them after reinstalling;</li>
+            <li><strong>Your session library</strong> (sessions, names, collections and tool results) syncs only for users with an <strong>active paid subscription</strong>. Free users and users who made a one-time purchase keep their sessions on the device only — they are not uploaded.</li>
+        </ul>
+        <p>If you are not signed in, your data stays on your device.</p>
 
-    <p>By using the App, you agree to the terms of this Privacy Policy.</p>
+        <h2 id="analytics">7. Analytics, crash &amp; performance data</h2>
+        <p>We use <strong>Google Firebase</strong> tools to understand and improve the app:</p>
+        <ul>
+            <li><strong>Google Analytics for Firebase</strong> — aggregated usage and feature analytics. Analytics events do not include your name or email.</li>
+            <li><strong>Firebase Crashlytics</strong> — crash and error reporting (released app versions only).</li>
+            <li><strong>Firebase Performance Monitoring</strong> — app and network performance metrics (released app versions only).</li>
+            <li><strong>Firebase Remote Config</strong> — to configure features and roll out changes safely.</li>
+        </ul>
+        <p>In the <strong>EEA, UK and Switzerland</strong>, advertising and analytics that rely on device identifiers are managed through Google’s <strong>User Messaging Platform (UMP)</strong> consent tool and Google <strong>Consent Mode</strong>; until you grant consent, those identifiers are not used for advertising/analytics purposes for you. Crash reporting and performance monitoring run in released versions to keep the app stable and secure on the basis of our legitimate interest; you can object to this by contacting us. We exclude analytics, crash and performance data generated by our own development and test builds from our production reporting where technically feasible.</p>
+
+        <h2 id="ads">8. Advertising (free version only)</h2>
+        <p>The free version of the app shows ads through <strong>Google AdMob</strong>. The paid tiers are ad-free. To show ads, AdMob and its partners may use your device advertising identifier and ad-request data, and may use this for personalised advertising depending on your choices.</p>
+        <p>Your controls:</p>
+        <ul>
+            <li><strong>On iOS</strong>, we use Apple’s <strong>App Tracking Transparency</strong> prompt. If you choose “Ask App Not to Track” (or disable tracking requests in Settings), the app will not use the IDFA to track you, and ads will be non-personalised.</li>
+            <li><strong>On Android</strong>, you can reset or delete your Advertising ID and opt out of ad personalisation in your device settings.</li>
+            <li><strong>In the EEA/UK</strong>, your advertising/analytics consent is collected through the consent prompt described in Section&nbsp;7. You can also withdraw or change your choices at any time using the device ad settings above, or by emailing us.</li>
+            <li>You can also <strong>email us</strong> at <a href="mailto:kottov@gmail.com">kottov@gmail.com</a> to ask us to limit the processing of your data for advertising.</li>
+        </ul>
+        <p>For more on how Google uses data from apps that use its services, see <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google’s “How Google uses information from sites or apps that use our services”</a>.</p>
+
+        <h2 id="third-parties">9. Third-party services we share data with</h2>
+        <p>We work with the following service providers (“processors” / partners). They receive only the data needed for their function, and each has its own privacy policy:</p>
+        <table>
+            <thead>
+                <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Privacy policy</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>Firebase Analytics, Crashlytics, Performance, Remote Config</td><td>Google</td><td>Analytics, crash reporting, performance, feature config</td><td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>AdMob &amp; User Messaging Platform</td><td>Google</td><td>Ads in the free version; EEA/UK consent management</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>Sign in with Google</td><td>Google</td><td>Optional account sign-in</td><td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>Sign in with Apple; Shazam music recognition (Track ID)</td><td>Apple</td><td>Optional account sign-in; song recognition</td><td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>Supabase</td><td>Supabase, Inc.</td><td>Account authentication; cloud sync of settings/library; issuing the Track ID access token on Android</td><td><a href="https://supabase.com/privacy" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>RevenueCat</td><td>RevenueCat, Inc.</td><td>Managing purchases, subscriptions and entitlements</td><td><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>Odesli / Song.link</td><td>Song.link / Odesli</td><td>Building cross-platform streaming links for identified songs</td><td><a href="https://odesli.co/privacy" target="_blank" rel="noopener">link</a></td></tr>
+                <tr><td>App Store / Google Play billing</td><td>Apple / Google</td><td>Processing payments for purchases and subscriptions</td><td><a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple</a> / <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google</a></td></tr>
+            </tbody>
+        </table>
+        <p>We do not sell your personal data in the ordinary meaning of selling it for money. Note, however, that the use of advertising identifiers for ads may be treated as a “sale” or “sharing” under certain US state laws — see Section&nbsp;13.</p>
+        <div class="callout">
+            <strong>Data-processing agreements.</strong> We are in the process of putting in place the required data-processing agreements with each provider above. Where a provider acts as our processor, it is — or, where an agreement is still being finalised, will be — contractually bound to process personal data only on our instructions and to protect it.
+        </div>
+
+        <h2 id="transfers">10. International data transfers</h2>
+        <p>Some of our service providers are located outside your country, including in the United States. Where personal data is transferred outside the EEA/UK, we rely on — or are putting in place reliance on — lawful transfer mechanisms such as the European Commission’s <strong>Standard Contractual Clauses</strong>, the UK Addendum, and — where applicable — the providers’ certification under the <strong>EU–US / UK–US Data Privacy Framework</strong>. You can request more information about these safeguards at the contact email below.</p>
+
+        <h2 id="retention">11. How long we keep data</h2>
+        <ul>
+            <li><strong>Microphone audio</strong> for tempo detection is processed in real time and never stored.</li>
+            <li><strong>Account, settings and synced library data</strong> are kept while your account is active and deleted (from the cloud) when you delete your account, subject to short technical backup windows held by our providers.</li>
+            <li><strong>Cloud copies of items you delete.</strong> When you delete an individual synced session, it is removed from your devices; a soft-deletion marker may remain on our backend until you delete your account.</li>
+            <li><strong>Local data on your device</strong> stays until you delete it in the app or uninstall the app.</li>
+            <li><strong>Analytics, crash and performance data</strong> are retained according to the relevant Firebase product’s retention settings and Google’s defaults.</li>
+            <li><strong>Purchase records</strong> are retained as needed to manage entitlements and meet legal/accounting obligations.</li>
+        </ul>
+
+        <h2 id="rights-eu">12. Your rights (EEA, UK, Switzerland)</h2>
+        <p>If you are in the EEA, UK or Switzerland, you have the right to: access your personal data; have it corrected; have it erased; restrict or object to its processing; data portability; and, where processing is based on consent, to withdraw that consent at any time (this does not affect processing already carried out). You also have the right to lodge a complaint with your local data protection authority.</p>
+        <p>To exercise any of these rights, email <a href="mailto:kottov@gmail.com">kottov@gmail.com</a> or, for account data, use the in-app account-deletion option described in Section&nbsp;14.</p>
+
+        <h2 id="rights-us">13. Your rights (United States)</h2>
+        <p>If you are a resident of California or another US state with a comprehensive privacy law (e.g. Virginia, Colorado, Connecticut, Utah, Texas), you may have rights to know, access, correct, delete, and opt out of certain processing of your personal information.</p>
+        <p><strong>“Do Not Sell or Share My Personal Information” / opt-out of targeted advertising.</strong> We do not sell your data for money. However, the use of advertising identifiers for advertising in the free version may be considered a “sale” or “sharing” (cross-context behavioural advertising) under some state laws. You can opt out by:</p>
+        <ul>
+            <li><strong>iOS:</strong> declining the App Tracking Transparency prompt or turning off “Allow Apps to Request to Track”;</li>
+            <li><strong>Android:</strong> resetting/deleting your Advertising ID or opting out of ad personalisation in device settings;</li>
+            <li><strong>Email:</strong> contacting <a href="mailto:kottov@gmail.com">kottov@gmail.com</a> to request that we limit advertising-related processing.</li>
+        </ul>
+        <p>If you access our web pages with a browser that sends a recognised opt-out preference signal (such as <strong>Global Privacy Control</strong>), we will treat it as a valid opt-out request where we are able to detect it. We will not discriminate against you for exercising your rights. If you are in a state that provides a right to appeal and we decline your request, you may appeal by replying to our response or emailing <a href="mailto:kottov@gmail.com">kottov@gmail.com</a>; we will inform you of the outcome.</p>
+
+        <h2 id="deletion">14. Deleting your account &amp; data</h2>
+        <p>You can delete your account from within the app (in the account settings). When you do:</p>
+        <ul>
+            <li>your account and the data synced to our backend (your synced settings and, for subscribers, your synced library) are <strong>deleted from the cloud</strong>;</li>
+            <li>we make a best-effort request to delete your subscriber record at our subscription provider, and — for Sign in with Apple — to revoke the app’s access with Apple;</li>
+            <li><strong>data stored locally on your device is not automatically erased</strong> by account deletion. To remove local data, uninstall the app (which deletes all on-device data) or, where the app provides it, delete individual items in the app.</li>
+        </ul>
+        <p>You can also request deletion by emailing <a href="mailto:kottov@gmail.com">kottov@gmail.com</a>, or via our web deletion page at <a href="https://kottov.github.io/pulse-bpm-docs/account-deletion.html">kottov.github.io/pulse-bpm-docs/account-deletion.html</a>. Note that cancelling a subscription is handled through the App Store or Google Play and is separate from deleting your account.</p>
+
+        <h2 id="children">15. Children</h2>
+        <p>Live BPM is a general-audience tempo tool and is <strong>not directed to children under 13</strong> (or the minimum age required in your country). We do not knowingly collect personal data from children under that age. In the EEA/UK, if you are below the age at which you can consent to data processing on your own (between 13 and 16 depending on the country), you should use the app only with the involvement of a parent or guardian. If you believe a child has provided us personal data, contact us and we will delete it.</p>
+
+        <h2 id="security">16. Security</h2>
+        <p>We use industry-standard measures to protect personal data, including encryption in transit (HTTPS/TLS), access controls at our service providers, and the use of platform sign-in providers rather than handling passwords ourselves. No method of transmission or storage is 100% secure, so we cannot guarantee absolute security.</p>
+
+        <h2 id="migration">17. Migration from the previous app (retape)</h2>
+        <p>Live BPM is the successor to our earlier app, <strong>retape</strong>. If you previously used retape on the same device, the app migrates your existing local data (such as settings and, for previous Plus users, saved sessions) into Live BPM <strong>once, on your device</strong>, on first launch. This migration reads your existing on-device data and does not delete your original data. Like any other data in the app, migrated data may later sync to the cloud if you sign in — your settings for all signed-in users, and your session library for subscribers (see Sections&nbsp;6 and&nbsp;9).</p>
+
+        <h2 id="changes">18. Changes to this policy</h2>
+        <p>We may update this policy from time to time. When we make material changes, we will update the “Last updated” date above and, where appropriate, notify you in the app. Your continued use of the app after an update means you accept the revised policy.</p>
+
+        <h2 id="contact">19. How to contact us</h2>
+        <p>For any privacy question, request, or to exercise your rights, contact:<br>
+        <strong>Kostiantyn Pogorielov</strong><br>
+        Email: <a href="mailto:kottov@gmail.com">kottov@gmail.com</a></p>
+
+    </div>
+    <footer>
+        © 2026 Kostiantyn Pogorielov · Live BPM · <a href="terms-of-use.html">Terms of Use</a>
+    </footer>
+</div>
 </body>
 </html>
